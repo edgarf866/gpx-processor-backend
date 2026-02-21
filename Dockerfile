@@ -42,8 +42,4 @@ EXPOSE 8000
 # --- Commande de lancement ---
 # Railway définit $PORT automatiquement
 # On utilise gunicorn en production (plus stable qu'uvicorn seul)
-CMD gunicorn app.main:app \
-    --workers 2 \
-    --worker-class uvicorn.workers.UvicornWorker \
-    --bind 0.0.0.0:${PORT:-8000} \
-    --timeout 300
+CMD ["sh", "-c", "gunicorn app.main:app --workers 2 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:$PORT --timeout 300"]

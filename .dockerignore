@@ -1,0 +1,9 @@
+__pycache__
+*.pyc
+venv
+.env
+uploads/*
+exports/*
+reports/*
+test_parcelle.gpx
+.git

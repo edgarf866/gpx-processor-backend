@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPX Processor Test"
+     xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Parcelle Test - Yamoussoukro</name>
+    <desc>Fichier de test simulant une parcelle agricole près de Yamoussoukro</desc>
+  </metadata>
+  <trk>
+    <name>Parcelle Cacao Zone A</name>
+    <trkseg>
+      <!-- Point de départ -->
+      <trkpt lat="6.8200" lon="-5.2750">
+        <ele>210</ele>
+        <time>2024-01-15T08:00:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8210" lon="-5.2730">
+        <ele>212</ele>
+        <time>2024-01-15T08:01:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8225" lon="-5.2710">
+        <ele>215</ele>
+        <time>2024-01-15T08:02:00Z</time>
+      </trkpt>
+      <!-- Artefact intentionnel (point aberrant) pour tester la correction -->
+      <trkpt lat="6.9500" lon="-5.1000">
+        <ele>500</ele>
+        <time>2024-01-15T08:02:30Z</time>
+      </trkpt>
+      <trkpt lat="6.8240" lon="-5.2690">
+        <ele>218</ele>
+        <time>2024-01-15T08:03:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8250" lon="-5.2680">
+        <ele>220</ele>
+        <time>2024-01-15T08:04:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8255" lon="-5.2700">
+        <ele>219</ele>
+        <time>2024-01-15T08:05:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8260" lon="-5.2720">
+        <ele>217</ele>
+        <time>2024-01-15T08:06:00Z</time>
+      </trkpt>
+      <!-- Point dupliqué intentionnel -->
+      <trkpt lat="6.8260" lon="-5.2720">
+        <ele>217</ele>
+        <time>2024-01-15T08:06:01Z</time>
+      </trkpt>
+      <trkpt lat="6.8255" lon="-5.2740">
+        <ele>215</ele>
+        <time>2024-01-15T08:07:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8245" lon="-5.2755">
+        <ele>213</ele>
+        <time>2024-01-15T08:08:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8230" lon="-5.2760">
+        <ele>211</ele>
+        <time>2024-01-15T08:09:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8215" lon="-5.2758">
+        <ele>210</ele>
+        <time>2024-01-15T08:10:00Z</time>
+      </trkpt>
+      <trkpt lat="6.8205" lon="-5.2755">
+        <ele>210</ele>
+        <time>2024-01-15T08:11:00Z</time>
+      </trkpt>
+      <!-- Retour vers le point de départ -->
+      <trkpt lat="6.8200" lon="-5.2750">
+        <ele>210</ele>
+        <time>2024-01-15T08:12:00Z</time>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

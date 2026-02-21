@@ -1,0 +1,33 @@
+# ============================================================
+# GPX Processor - Dépendances Python
+# ============================================================
+# Pour installer : pip install -r requirements.txt
+# ============================================================
+
+# --- Framework Web ---
+# FastAPI = le framework web moderne de Python (comme Express pour Node)
+# uvicorn = le serveur qui fait tourner FastAPI
+fastapi==0.115.0
+uvicorn==0.30.6
+python-multipart==0.0.9       # Pour gérer les uploads de fichiers
+
+# --- Géospatial (le cœur du projet) ---
+# Shapely = manipulation de géométries (points, lignes, polygones)
+# GeoPandas = Pandas + géo (DataFrames avec géométries)
+# Fiona = lecture/écriture de fichiers géo (GPX, GeoJSON, Shapefile)
+# pyproj = reprojections (WGS84 → UTM pour calculs précis)
+shapely==2.0.6
+geopandas==1.0.1
+fiona==1.10.1
+pyproj==3.7.0
+
+# --- Parsing XML (pour lire les fichiers GPX) ---
+lxml==5.3.0
+
+# --- Génération de rapports PDF ---
+reportlab==4.2.5
+
+# --- Utilitaires ---
+pydantic==2.9.2               # Validation de données (intégré à FastAPI)
+numpy==2.1.1                  # Calculs numériques
+python-dateutil==2.9.0        # Manipulation de dates
